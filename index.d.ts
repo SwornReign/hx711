@@ -8,6 +8,8 @@ declare class HX711 {
   getUnits(times?: number): number
   getOffset(): number
   getScale(): number
+  powerUp(): void
+  powerDown(): void
 }
 
 export = HX711
